@@ -2,21 +2,16 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+number = 10
+pi = 3.14
+text = "Hello"
+is_valid = True
+coordinates = (1, 2)
+my_list = [1, 2, 3]
+my_dict = {"a": 1}
+my_set = {1, 2, 3}
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
-
-
-
-
-
-
+sorted_variables = {
+    "mutable": [my_list, my_dict, my_set],
+    "immutable": [number, pi, text, is_valid, coordinates],
+}
